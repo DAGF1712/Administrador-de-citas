@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #424874;
+}
+
+header{
+	font-size: 1.5vw;
+	text-align: center;
+	margin-left: 32.5%;
+	background-color: #a6b1e1;
+	width: 35%;
+	box-shadow: 3px 4px;
+}
+
+.container-form{
+	position: absolute;
+	background-color: #dcd6f7;
+	width: 40%;
+	height: 75%;
+	margin-left: 10%;
+	border: 1px solid;
+}
+
+.container-form h2{
+	text-align: center;
+	font-size: 2.5vw;
+}
+
+.container-form label,input{
+	margin-left: 6%;
+	margin-top: 1%;
+	font-size: 1.5vw;
+}
+
+.edad{
+	margin-left: 10.5%;
+}
+
+.fecha{
+	margin-left: 8%;
+}
+
+.hora{
+	margin-left: 9%;
+}
+
+.sintomas{
+	margin-top: 45%;
+}
+
+textarea {
+  resize: none;
+  margin-left: 18%;
+  margin-top: 2%;
+  width: 65%;
+  height: 3.5em;
+}
+
+.agregar{
+	font-size: 1.3vw;
+	background-color: #72FF61;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 2.5%;
+}
+
+.agregar:hover{
+	background-color: #1ADA03;
+}
+
+.error{
+	font-size: 1.5vw;
+	text-align: center;
+	margin-top: 2%;
+	background-color: #FF7070;
+}
+
+.indicador{
+	background-color: #dcd6f7;
+	position: absolute;
+	border: 1px solid;
+	left: 51%;
+	width: 40%;
+	height: 75%;
+}
+
+.indicador h2{
+	font-size: 2.4vw;
+	text-align: center;
+}
+
+.cita{
+	font-size: 1.6vw;
+	height: 15em; 
+	background-color: #dcd6f7;
+	border: 1px solid;
+}
+
+.cita h3,span,p{
+	margin-left: 2%;
+}
+
+.borrar{
+	font-size: 1.3vw;
+	background-color: #FF7070;
+	width: 40%;
+	margin-left: 30%;
+}
+
+.borrar:hover{
+	background-color: #FF2626;
+}
